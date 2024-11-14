@@ -1,0 +1,44 @@
+.box {
+    width: 620px;
+}
+
+.box button {
+    width: 100%;
+}
+
+.input-field {
+    width: 280px;
+}
+
+.row {
+    margin: 10px;
+    display: block;
+}
+
+.left {
+    margin-right: 40px;
+}
+
+.right {
+    margin: 15px
+}
+
+label {
+    display: inline-block;
+    margin: 5px 0 0;
+}
+@media only screen and (min-width: 768px) {
+    .row {
+        display: flex;
+        margin: 18px 0;
+    }
+
+    .right {
+        margin: 0;
+    }
+
+    .box {
+        max-width: 720px;
+    }
+
+}
